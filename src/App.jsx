@@ -1,33 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Container } from "reactstrap"
+
+import Header from './components/Header'
+import Content from './components/Content'
+import Footer from './components/Footer'
+
+// import Principal from './components/Principal'
+// import Usuarios from './components/Usuarios'
+// import Comentarios from './components/Comentarios'
+// import Sobre from './components/Sobre'
+
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Router>
+      <div className="d-flex flex-column container-altura">
+        <Header />
+
+        {/* O Content agora funciona como container principal para as rotas */}
+        <Content>
+          <Routes>
+            {/* <Route path="/" element={<Principal />} />
+            <Route path="/usuarios" element={<Usuarios />} />
+            <Route path="/comentarios" element={<Comentarios />} />
+            <Route path="/sobre" element={<Sobre />} /> */}
+          </Routes>
+        </Content>
+
+        <Footer />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    </Router>
     </>
   )
 }

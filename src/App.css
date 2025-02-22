@@ -1,3 +1,58 @@
+.container-altura {
+    min-height: 100vh;
+}
 
+/* Estilo para o Header */
+.header {
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    background-color: #05315E; 
+    color: white;  
+}
 
+.header h1 {
+    margin-left: 15px;  
+    font-size: 24px;   
+}
 
+/* Estilo para o ícone */
+.icone {
+    width: 64px;  
+    height: 64px; 
+    object-fit: contain; /* Ajusta a imagem sem distorção */
+}
+
+/* Estilos do Footer */
+.footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Ajuste no row de ícones */
+.footer .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Garante que não fiquem um abaixo do outro em telas pequenas */
+    gap: 15px; /* Espaço entre os ícones */
+}
+
+/* Ícones das redes sociais */
+.icone-rede {
+    width: 40px; 
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.icone-rede:hover {
+    transform: scale(1.1);
+}
+
+.bg-primaria {
+    background-color: #05315E;
+}
+
+.bg-primaria {
+    background-color: #05315E;
+}
