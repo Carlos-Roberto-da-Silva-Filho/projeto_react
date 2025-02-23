@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 // import Principal from './components/Principal'
 // import Usuarios from './components/Usuarios'
-// import Comentarios from './components/Comentarios'
+import Comentarios from './components/Comentarios'
 // import Sobre from './components/Sobre'
 
 function App() {
@@ -25,9 +25,9 @@ function App() {
         <Content>
           <Routes>
             {/* <Route path="/" element={<Principal />} />
-            <Route path="/usuarios" element={<Usuarios />} />
+            <Route path="/usuarios" element={<Usuarios />} /> */}
             <Route path="/comentarios" element={<Comentarios />} />
-            <Route path="/sobre" element={<Sobre />} /> */}
+            {/* <Route path="/sobre" element={<Sobre />} /> */}
           </Routes>
         </Content>
 

@@ -1,10 +1,12 @@
-import Icone from '../Icone';
+import "./Header.css"
+import Icone from '../Icone'
+import Menu from '../Menu'
 
 const Header = () => {
     return (
         <header className="header">
-            <Icone /> {/* Inserindo o componente Icone */}
-            <h1>Cabeçalho</h1>
+            <Icone /> 
+            <Menu />
         </header>
     )
 }

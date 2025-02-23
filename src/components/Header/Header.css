@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ícone à esquerda, menu à direita */
+    padding: 10px 10px;
+    background-color: #05315E;
+    width: 90vw;
+}
+
+/* Estilo do ícone no Header */
+.icone {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-left: 16px;
+}
+
+/* Ajuste para o menu dentro do Header */
+.header .menu {
+    margin-left: auto;
+    margin-right: 64px;
+}

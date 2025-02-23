@@ -1,0 +1,92 @@
+.comentarios-container {
+    display: flex;
+    justify-content: center;
+}
+
+.comentarios-form {
+    width: 94%; 
+    padding: 24px 36px;
+    background-color: #6ca8f8; 
+    border-radius: 12px;
+    color: white;
+}
+
+.comentarios-form h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.comentarios-form .form-group {
+    margin-bottom: 2px;
+}
+
+.comentarios-form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.comentarios-form input,
+.comentarios-form select,
+.comentarios-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #05315E;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.comentarios-form input:focus,
+.comentarios-form select:focus,
+.comentarios-form textarea:focus {
+    border-color: #004080;
+    box-shadow: 0 0 5px rgba(0, 64, 128, 0.5);
+}
+
+.comentarios-form button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #05315E; 
+    color: white; 
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.comentarios-form button:hover {
+    background-color: #286eca;
+}
+
+.comentarios-form input,
+.comentarios-form select,
+.comentarios-form textarea,
+.comentarios-form button {
+    box-sizing: border-box;
+}
+
+.erro-centralizado {
+    text-align: center;
+}
+
+.contador-caracteres {
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+}
+
+.alert-custom {
+    background-color: #05315E;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
