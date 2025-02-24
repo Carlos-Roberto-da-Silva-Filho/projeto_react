@@ -1,7 +1,6 @@
 import './App.css'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Container } from "reactstrap"
 
 import Header from './components/Header'
 import Content from './components/Content'
