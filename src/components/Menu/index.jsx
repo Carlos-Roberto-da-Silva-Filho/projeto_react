@@ -40,8 +40,8 @@ const Menu = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={Link} to="/sobre" className="nav-link">
-              Sobre
+            <NavLink tag={Link} to="/hora" className="nav-link">
+              Hora
             </NavLink>
           </NavItem>
         </Nav>

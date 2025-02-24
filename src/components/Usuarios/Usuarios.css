@@ -1,0 +1,37 @@
+.input-estilizado {
+    width: 300px;
+    /* Largura ajustada para o input */
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(120deg, #1e3a8a, #3b82f6);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-estilizado::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-estilizado:focus {
+    outline: none;
+    background: linear-gradient(120deg, #3b82f6, #1e3a8a);
+}
+
+/* Estilizando o formulário de filtro */
+.form-filtro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+    /* Espaço entre o filtro e os cards */
+}
+
+/* Ajustando o Label e o Input */
+.form-filtro .form-group {
+    width: 100%;
+    max-width: 350px;
+    /* Garantindo que o filtro não fique muito largo */
+    text-align: center;
+}
